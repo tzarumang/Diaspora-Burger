@@ -1,10 +1,7 @@
-Diaspora*
+Diaspora - Burger*
 
-Diaspora is a privacy-aware, personally-controlled, do-it-all open source social network. Check out our [project site](http://diasporaproject.org).
+Diaspora is a privacy-aware, personally-controlled, content aware food social network.
 
-[![Build Status](https://secure.travis-ci.org/diaspora/diaspora.png)](http://travis-ci.org/diaspora/diaspora)
-[![Dependency Status](https://gemnasium.com/diaspora/diaspora.png?travis)](https://gemnasium.com/diaspora/diaspora)
-[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/diaspora/diaspora)
 
 ************************
 Diaspora is currently going through a huge refactoring push, the code is changing fast!
@@ -25,7 +22,7 @@ looking to contribute to D*.  This script assumes you have [a basic Rails setup 
 
 ### Step 1: Run the script and follow the on screen instructions.
 ```
-  bash <(curl https://raw.github.com/diaspora/diaspora/master/script/install.sh)
+  bash <(curl https://raw.github.com/tzarumang/diaspora-burger/master/script/install.sh)
 ```
 
 
@@ -44,23 +41,3 @@ then visit 'http://localhost:3000' in your browser.
 ### Step 4 (for everyone): Party.
 
 
-### Want a production setup? Having trouble with install script? Want to install D* the slow way?
-  Look to more specific install guides [here](https://github.com/diaspora/diaspora/wiki/Installation-Guides).
-
-## Contributing
-We love community contributions, and we work extra hard to make sure every code contribution is looked at and given feedback. 
-To help everyone involved, please review our [Pull Request Guidelines](https://github.com/diaspora/diaspora/wiki/Pull-Request-Guidelines)
-to make sure all contributions are submitted smoothly.
-
-Documentation is available on our [wiki](https://github.com/diaspora/diaspora/wiki)
-
-Before submitting code, please sign our [Contributor License Agreement](https://github.com/diaspora/diaspora/wiki/New-CLA--12-13-10) [Sign Here](https://spreadsheets.google.com/a/joindiaspora.com/spreadsheet/viewform?formkey=dFdRTnY0TGtfaklKQXZNUndsMlJ2eGc6MQ)
-
-## More Resources:
-
-- [Wiki](https://github.com/diaspora/diaspora/wiki)
-- [Podmin Resources](https://github.com/diaspora/diaspora/wiki/Podmin-Resources)
-- [Contributing](https://github.com/diaspora/diaspora/wiki/Getting-Started-With-Contributing)
-- [Dev List](https://groups.google.com/forum/?fromgroups#!forum/diaspora-dev)
-- [Discuss List](https://groups.google.com/forum/?fromgroups#!forum/diaspora-discuss)
-- [IRC](https://github.com/diaspora/diaspora/wiki/How-we-use-IRC)

@@ -14,16 +14,6 @@
 
 .section
   .title
-    = image_tag('icons/heart.png')
-    %h5
-      = t('aspects.index.new_here.title')
-  .content
-    != t('aspects.index.new_here.follow', :link => link_to("#"+t('shared.publisher.new_user_prefill.newhere'), tag_path(:name => t('shared.publisher.new_user_prefill.newhere'))))
-    %br
-    = link_to(t('aspects.index.new_here.learn_more'), "https://github.com/diaspora/diaspora/wiki/Welcoming-Committee")
-
-.section
-  .title
     = image_tag('icons/question.png')
     %h5
       = t('aspects.index.help.need_help')
@@ -59,25 +49,4 @@
           - unless current_user.services.any?{|x| x.provider == service}
             = link_to(image_tag("social_media_logos/#{service.to_s.downcase}-24x24.png", :title => service.to_s.titleize), "/auth/#{service}")
 
-.section
-  .title
-    = image_tag('icons/bookmark.png')
-    %h5
-      = t('bookmarklet.heading')
-  .content
-    != t('bookmarklet.explanation', :link => link_to(t('bookmarklet.post_something'), magic_bookmarklet_link))
 
-.section
-  .title
-    = image_tag('icons/coffee.png')
-    %h5
-      = t('aspects.index.donate')
-  .content
-    - if AppConfig[:paypal_hosted_button_id].present?
-      = t('aspects.index.keep_pod_running', :pod => URI.parse(AppConfig[:pod_url]).host)
-      %br
-      = render 'shared/donatepod'
-    - else
-      = t('aspects.index.keep_diaspora_running')
-      %br
-      = render 'shared/donatediaspora'

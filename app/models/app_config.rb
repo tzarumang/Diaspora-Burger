@@ -39,7 +39,7 @@ Please do the following:
 2. Make any changes in config/application.yml that you previously made in config/app.yml or config/app_config.yml.
 3. Delete config/app.yml and config/app_config.yml. Don't worry if they don't exist, though.
 4. Restart Diaspora!
-******** Thanks for being an alpha tester! **********
+******** Thanks!!! **********
   HELP
         Process.exit(1)
       end

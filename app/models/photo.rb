@@ -1,7 +1,3 @@
-#   Copyright (c) 2009, Diaspora Inc.  This file is
-#   licensed under the Affero General Public License version 3 or later.  See
-#   the COPYRIGHT file.
-
 class Photo < ActiveRecord::Base
   require 'carrierwave/orm/activerecord'
 
